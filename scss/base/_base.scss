@@ -34,8 +34,17 @@ button {
     cursor: pointer;
 }
 
-input {
-    background-color: transparent;
+input,
+textarea {
+    background: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-webkit-autofill:hover {
+    transition: background-color 1s 9999s;
+    -webkit-text-fill-color: #fff;
 }
 
 a,
