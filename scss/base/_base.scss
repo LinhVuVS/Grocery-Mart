@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 *,
 ::before,
 ::after {
@@ -10,7 +12,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: Gordita, sans-serif;
+    font-family: Lato, sans-serif;
     color: var(--text-color);
     background-color: var(--body-bg);
 }
@@ -24,6 +26,12 @@ button {
     border: none;
     outline: none;
     background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+input {
+    background-color: transparent;
 }
 
 a,
@@ -32,6 +40,9 @@ input,
 button,
 select,
 textarea {
+    padding: 0;
+    outline: none;
+    border: none;
     color: inherit;
     font-family: inherit;
     -webkit-tap-highlight-color: transparent;
@@ -39,4 +50,11 @@ textarea {
 
 .icon {
     filter: var(--icon-color);
+}
+
+.container {
+    @include abstracts.screen(sm) {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
