@@ -1,7 +1,7 @@
 html.dark {
   --text-color: #fff;
-  --icon-color: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7482%) hue-rotate(72deg) brightness(99%)
-      contrast(99%);
+  --icon-color: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7482%) hue-rotate(72deg)
+      brightness(99%) contrast(99%);
   --body-bg: #292e39;
   --header-bg-color: #171c28;
   --footer-bg-color: var(--header-bg-color);
@@ -130,52 +130,6 @@ html {
   --top-act-group-bg-color: #fff;
   --top-act-group-shadow: rgba(237, 237, 246, 0.2);
   --top-act-group-separate: #ededf6;
-  --header-act-dropdown-bg: #fff;
-  --header-act-dropdown-shadow: rgba(200, 200, 200, 0.4);
-  --header-act-dropdown-border-color: #d2d1d6;
-  --dropdown-bg-color: #fff;
-  --dropdown-shadow-color: rgba(200, 200, 200, 0.4);
-  --top-menu-border-color: #d2d1d6;
-  --sidebar-bg: #fff;
-  --sidebar-shadow: rgba(200, 200, 200, 0.4);
-  --cate-item-bg: #eee;
-  --cate-item-thumb-bg: #fff;
-  --cate-item-title-color: #000;
-  --filter-btn-color: #6c6c72;
-  --filter-btn-bg: #fff;
-  --product-card-bg: #fff;
-  --product-card-shadow: rgba(237, 237, 246, 0.2);
-  --filter-form-bg: #fff;
-  --filter-form-shadow: rgba(200, 200, 200, 0.4);
-  --form-tag-bg: #f8f8fb;
-  --auth-content-bg: #fff;
-  --form-placeholder-color: #d2d1d6;
-  --form-select-dialog-shadow: rgba($color: #000000, $alpha: 0.15);
-  --form-select-dialog-bg: #fff;
-  --form-option-hover-bg: #ebebeb;
-  --product-detail-bg: #fff;
-  --product-detail-info-bg: #f6f6f6;
-  --product-detail-info-content-bg: #fff;
-  --product-detail-tag-bg: #ededf6;
-  --breadcrumbs-bg: #f6f6f6;
-  --breadcrumbs-shadow: rgba(237, 237, 246, 0.2);
-  --search-bar-bg: #fff;
-  --review-card-bg: #fafafd;
-  --text-content-hr-bg: #ebebeb;
-  --checkout-breadcrumbs-bg: #fff;
-  --checkout-cart-info-bg: #fff;
-  --checkout-cart-info-shadow: rgba(237, 237, 246, 0.2);
-  --checkout-border-color: #d2d1d6;
-  --checkout-gift-shadow: rgba(237, 237, 246, 0.2);
-  --checkout-payment-item-bg: #f6f6f6;
-  --dialog-bg: #fff;
-  --dialog-shadow: rgba(237, 237, 246, 0.2);
-  --profile-sidebar-bg: #fff;
-  --profile-sidebar-shadow: rgba(237, 237, 246, 0.2);
-  --profile-sidebar-link-hover: #ebebeb;
-  --account-info-bg: #f6f6f6;
-  --account-info-icon-bg: #fff;
-  --separate-color: #d2d1d6;
 }
 @media (max-width: 991.98px) {
   html {
@@ -183,15 +137,62 @@ html {
     --header-shadow-color: rgba(237, 237, 246, 0.2);
   }
 }
+html {
+  --header-act-dropdown-bg: #fff;
+  --header-act-dropdown-shadow: rgba(200, 200, 200, 0.4);
+  --header-act-dropdown-border-color: #d2d1d6;
+}
+html {
+  --dropdown-bg-color: #fff;
+  --dropdown-shadow-color: rgba(200, 200, 200, 0.4);
+  --top-menu-border-color: #d2d1d6;
+}
+html {
+  --sidebar-bg: #fff;
+  --sidebar-shadow: rgba(200, 200, 200, 0.4);
+}
+html {
+  --cate-item-bg: #eee;
+  --cate-item-thumb-bg: #fff;
+  --cate-item-title-color: #000;
+}
 @media (max-width: 767.98px) {
   html {
     --cate-item-bg: #fff;
   }
 }
+html {
+  --filter-btn-color: #6c6c72;
+  --filter-btn-bg: #fff;
+}
+html {
+  --product-card-bg: #fff;
+  --product-card-shadow: rgba(237, 237, 246, 0.2);
+}
+html {
+  --filter-form-bg: #fff;
+  --filter-form-shadow: rgba(200, 200, 200, 0.4);
+  --form-tag-bg: #f8f8fb;
+}
+html {
+  --auth-content-bg: #fff;
+}
 @media (max-width: 767.98px) {
   html {
     --auth-intro-bg: #fff;
   }
+}
+html {
+  --form-placeholder-color: #d2d1d6;
+  --form-select-dialog-shadow: rgba($color: #000000, $alpha: 0.15);
+  --form-select-dialog-bg: #fff;
+  --form-option-hover-bg: #ebebeb;
+}
+html {
+  --product-detail-bg: #fff;
+  --product-detail-info-bg: #f6f6f6;
+  --product-detail-info-content-bg: #fff;
+  --product-detail-tag-bg: #ededf6;
 }
 @media (max-width: 767.98px) {
   html {
@@ -199,15 +200,52 @@ html {
     --product-detail-info-bg: #fff;
   }
 }
+html {
+  --breadcrumbs-bg: #f6f6f6;
+  --breadcrumbs-shadow: rgba(237, 237, 246, 0.2);
+}
 @media (max-width: 767.98px) {
   html {
     --breadcrumbs-bg: #fff;
   }
 }
+html {
+  --search-bar-bg: #fff;
+}
+html {
+  --review-card-bg: #fafafd;
+}
 @media (max-width: 767.98px) {
   html {
     --review-card-bg: #fff;
   }
+}
+html {
+  --text-content-hr-bg: #ebebeb;
+}
+html {
+  --checkout-breadcrumbs-bg: #fff;
+  --checkout-cart-info-bg: #fff;
+  --checkout-cart-info-shadow: rgba(237, 237, 246, 0.2);
+  --checkout-border-color: #d2d1d6;
+  --checkout-gift-shadow: rgba(237, 237, 246, 0.2);
+  --checkout-payment-item-bg: #f6f6f6;
+}
+html {
+  --dialog-bg: #fff;
+  --dialog-shadow: rgba(237, 237, 246, 0.2);
+}
+html {
+  --profile-sidebar-bg: #fff;
+  --profile-sidebar-shadow: rgba(237, 237, 246, 0.2);
+  --profile-sidebar-link-hover: #ebebeb;
+}
+html {
+  --account-info-bg: #f6f6f6;
+  --account-info-icon-bg: #fff;
+}
+html {
+  --separate-color: #d2d1d6;
 }
 
 /*# sourceMappingURL=index.css.map */
